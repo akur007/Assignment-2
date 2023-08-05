@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order</title>
+    <!-- Link to the external stylesheet to style the webpage -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- Link to the external JavaScript file for script functionality -->
+    <script src="/java/script.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>AnoopPizza</h1>
+    </header>
+    <!-- Main Content Section -->
+    <main>
+        <!-- Pizza Selection Section -->
+        <section class="pizza-works">
+            <h2>Please Select Your Pizza</h2>
+            <div class="pizza-people">
+                <!-- Pizza Option 1 -->
+                <div class="pizza-things">
+                    <img src="/images/3.png" alt="Peperroni Pizza">
+                    <h3>Peperroni Pizza</h3>
+                    <p>Tomato sauce, mozzarella cheese, basil, Peperroni Slice, Bell peppers.</p>
+                    <!-- Order button with data attribute for price -->
+                    <button class="order-button" data-price="10.99">Order Now</button>
+                </div>
+                <!-- Pizza Option 2 -->
+                <div class="pizza-things">
+                    <img src="/images/1.png" alt="Alfredo Pizza">
+                    <h3>Alfredo Pizza</h3>
+                    <p>Alfredo sauce, Feta cheese, Chicken slices, Peppers.</p>
+                    <!-- Order button with data attribute for price -->
+                    <button class="order-button" data-price="12.99">Order Now</button>
+                </div>
+                <!-- Add more pizza options here -->
+            </div>
+        </section>
+        <!-- Cart Section -->
+        <section class="cartitems">
+            <h2>My Cart</h2>
+            <ul class="cart-things">
+                <!-- Cart items will be added using JavaScript -->
+            </ul>
+            <div class="total-cart">
+                <p>Total: <span id="final-price">$0.00</span></p>
+                <button class="checkout-last">Checkout</button>
+            </div>
+        </section>
+    </main>
+    <!-- Link to navigate back to the home page -->
+    <a href="./index.html" class="home-button">Home</a>
+</body>
+</html>
